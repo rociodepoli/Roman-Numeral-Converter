@@ -1,0 +1,99 @@
+/* Reset básico para márgenes y relleno */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo general del cuerpo */
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  
+    color: #333;
+    background-image: url('https://img.freepik.com/fotos-premium/ilustracion-3d-numeros-romanos-dorados-sobre-fondo-negro_556904-35.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen para que no se mueva con el contenido */
+    min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+  }
+  
+  /* Estilo del contenedor principal */
+  main {
+    background: #ffe6abc8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Estilo del título */
+  h1 {
+    color: #d19300;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Estilo del formulario */
+  .form {
+    margin-bottom: 1.5rem;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input[type="number"] {
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #d1920095;
+    color:rgb(108, 78, 0);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d19300;
+    color: #ffffff;
+  }
+  
+  /* Estilo del área de salida */
+  .output {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #333;
+    background: #e9ecef;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
